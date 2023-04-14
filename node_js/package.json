@@ -1,0 +1,14 @@
+{
+  "name": "npm-test",
+  "version": "1.0.0",
+  "description": "test of node",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "dalmore21",
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "^0.32.0"
+  }
+}
