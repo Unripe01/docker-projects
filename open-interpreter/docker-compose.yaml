@@ -1,0 +1,19 @@
+version: '3'
+services:
+  open-interpreter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    init: true
+    tty: true
+    ports:
+      - "80:80"
+    volumes:
+      - root-volume:/root
+    working_dir: /root
+    command: sh
+volumes:
+  root-volume:
+    name: open-interpreter-root-volume
+
+
