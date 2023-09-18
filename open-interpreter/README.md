@@ -15,6 +15,10 @@ $ docker-compose up -d
 $ docker-compose exec open-interpreter bash
 ```
 
+```sh
+root@hostname:~# interpreter
+```
+
 ### Docker
 
 #### Docker build
