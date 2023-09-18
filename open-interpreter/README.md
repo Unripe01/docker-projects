@@ -8,12 +8,19 @@ Git clone
 $ cd && git clone https://github.com/Unripe01/docker-projects.git
 ```
 
+## Docker-Compose
+```sh
+$ cd open-interpreter
+$ docker-compose up -d
+$ docker-compose exec open-interpreter bash
+```
+
 ### Docker
 
 #### Docker build
 
 ```sh
-$ cd python
+$ cd open-interpreter
 $ docker build -t ubuntu:open-interpreter-docker .
 ```
 
