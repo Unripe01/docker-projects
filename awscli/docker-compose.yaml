@@ -1,0 +1,14 @@
+version: '3'
+services:
+  ubuntu:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    init: true
+    tty: true
+    ports:
+      - "4099:4099"
+    volumes:
+      - ./app:/app
+    working_dir: /app
+    command: sh
